@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+    background-image: url("https://ahrefs.com/blog/wp-content/uploads/2020/06/fb-javascript-seo.png");
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+
+}
+
+input {
+    font-size: 1rem;
+    border-width: 2px;
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+    border-radius: 1000px;
+    border-width: thick;
+}
+
+.card {
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+    border-width: thick;
+    background-color: beige;
+}
+
+.card>.header {
+    margin-bottom: .25rem;
+}
+
+.card>.body {
+    font-size: .8rem;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}

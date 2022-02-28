@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/WHATWG_JavaScript_logo.svg/250px-WHATWG_JavaScript_logo.svg.png" type="image/x-icon">
+  <title>JavaScript Search Users</title>
+</head>
+<body>
+  <div class="search-wrapper">
+    <label for="search"><b>Search Users</b></label>
+    <input type="search" id="search" placeholder="Type to search users" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+</body>
+</html>
